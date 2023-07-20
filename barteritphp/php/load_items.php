@@ -8,7 +8,7 @@ if (!isset($_POST)) {
 include_once("dbconnect.php");
 
 //to get the item per page
-$results_per_page = 10; //set the total item per page
+$results_per_page = 5; //set the total item per page
 if (isset($_POST['pageno'])){
 	$pageno = (int)$_POST['pageno'];
 }else{
